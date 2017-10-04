@@ -1,0 +1,40 @@
+{% extends "roadmap/base.html" %}
+{% load wagtailcore_tags %}
+{% load wagtailimages_tags %}
+{% load wagtailembeds_tags %}
+
+{% block left-content %}
+    <div class="row justify-content-center align-items-center roadmap-statement">
+        <div class="col description">
+            <h2 class="h2-heading text-center">{{ page.mission_statement}}</h2>
+            {% if page.video %}
+                <div class="text-center video-500">
+                    {% embed page.video max_width=500 %}
+                </div>
+                <div class="text-center video-300">
+                    {% embed page.video max_width=300 %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="card-group">
+    {% for section in page.sections %}
+        <div class="card text-center">
+            <h4 class="card-title h4-heading mb-2"><strong>{{ section.value.title }}</strong></h4>
+            {% image section.value.image width-64 class="card-img-top mx-auto" alt="Card image" %}
+            <div class="card-block">
+                <ul class="list-group">
+                    {% for list in section.value.pages %}
+                        <a class="task-list-title" href="{{ list.url }}">
+                            <li class="list-group-item">
+                                    {{ list.title }}
+                            </li>
+                        </a>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

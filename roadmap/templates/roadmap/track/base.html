@@ -1,0 +1,46 @@
+{% extends "roadmap/base.html" %}
+{% load wagtailcore_tags %}
+
+{# Core page for the task list #}
+
+{% block left-content %}
+    {% if page.page_body %}
+        <div class="row mb-4">
+            <div class="col">
+                {{ page.page_body | richtext }}
+            </div>
+        </div>
+    {% endif %}
+    <div class="row">
+            <div class="col">
+                {% if page.choices %}
+                    {% include 'roadmap/track/partials/_choice_form.html' with parent_url=page.url %}
+                {% endif %}
+                <div class="row task-list-links mt-4 mb-4">
+                    <div class="col">
+                        <h4 class="h4-heading"><strong>
+                            {% if showMessage %}
+                                {{ page.form_submission_message }}
+                            {% else %}
+                                {% if page.choices %}
+                                    Or choose from below:
+                                {% else %}
+                                    Choose from below:
+                                {% endif %}
+                            {% endif %}
+                        </strong></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    {% for step in steps %}
+                        <div class="col-12 col-md-3 col-lg-3 col-xl-3">
+                            {% include 'roadmap/step/partials/_step_btn.html' with step=step %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div id="checklist" class="col track-list col-md-3 col-lg-3 col-xl-3">
+                {% include 'roadmap/partials/checklist.html' %}
+            </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% load wagtailcore_tags %}
+
+{# The form of choices defined for the task page #}
+{# These choices can help guide users to the right step page #}
+<h4 class="h4-heading mb-4"><strong>{{ page.question }}</strong></h4>
+
+<form method="GET" class="walk-through-form" data-choices="{{ selected_choices }}">
+    {% for choice in page.choices %}
+        <div class="choice">
+            <input type="checkbox" value="{{ forloop.counter|add:-1 }}" id="option{{ forloop.counter|add:-1 }}" name="option{{ forloop.counter|add:-1 }}" class="checkbox"><label for="option{{ forloop.counter|add:-1 }}" class="align-middle choice-checkbox-label">{{ choice }}</label>
+        </div>
+    {% endfor %}
+    <div class="row mt-4 mb-4 task-list-btn">
+        <div class="col">
+            <button class="btn btn-base btn-base-blue" id="btn-submit">
+                Show me what I need below
+            </button>
+        </div>
+    </div>
+
+</form>
+
+<script>
+    if(window.location.hostname !== '127.0.0.1' &&
+       window.location.hostname !== 'localhost') {
+
+        $(function () {
+            $('#btn-submit').click(function (evt) {
+                var selectedInputs = $('input:checked'),
+                    selectedText = '',
+                    taskListTitle = $('.content').data('name');
+                selectedInputs.siblings('label').each(function (i, label) {
+                   selectedText += ($(label).text() + ',')
+                });
+                ga('send', 'event', 'walkthroughForm', 'submit', taskListTitle, selectedText);
+            });
+        });
+    }
+
+    $(function(){
+        var selectedChoices = String($('.walk-through-form').data('choices'));
+        
+        $.each(selectedChoices.split(','), function (i, val) {
+            $('#option'+val).attr('checked', true);
+        });
+    })
+</script>

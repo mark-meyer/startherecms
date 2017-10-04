@@ -1,0 +1,7 @@
+{% load wagtailcore_tags %}
+<div class="step-btn">
+    <a href="{{ step.url }}">
+        <h5 class="h5-heading task-list-link">{{ step.title }}</h5>
+    </a>
+    <p class="task-list-description">{{ step.short_description }}</p>
+</div>
