@@ -12,7 +12,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
 
-DEBUG = False
+DEBUG = True
 
 env = os.environ.copy()
 SECRET_KEY = env['SECRET_KEY']
@@ -29,11 +29,5 @@ COMPRESS_CSS_HASHING_METHOD = 'content'
 #Creates a separate search index from local
 #ALGOLIA['INDEX_PREFIX'] = 'prod'
 
-#MEDIA_URL = "https://%s/" % AWS_S3_CUSTOM_DOMAIN
-#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
-try:
-    from .local import *
-except ImportError:
-    pass
-
+MEDIA_URL = "https://%s/" % AWS_S3_CUSTOM_DOMAIN
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
