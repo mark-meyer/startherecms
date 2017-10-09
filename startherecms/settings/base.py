@@ -158,10 +158,11 @@ GOOGLE_MAPS_V3_APIKEY = os.environ.get("GOOGLE_MAPS_API_KEY")
 GEO_WIDGET_DEFAULT_LOCATION = {'lat': os.environ.get("GOOGLE_WIDGET_DEFAULT_LAT"), 'lng': os.environ.get("GOOGLE_WIDGET_DEFAULT_LONG")}
 GEO_WIDGET_ZOOM = 13
 
+ALGOLIA_API_KEY = os.environ.get("ALGOLIA_API_KEY") if os.environ.get("ALGOLIA_API_KEY") else ''
 #Used for search
 ALGOLIA = {
     'APPLICATION_ID': os.environ.get("ALGOLIA_APP_ID"),
-    'API_KEY': os.environ.get("ALGOLIA_API_KEY")
+    'API_KEY': ALGOLIA_API_KEY
 }
 
 

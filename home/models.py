@@ -49,14 +49,22 @@ class SiteSettings(BaseSetting):
         related_name='+'
     )
     website_footer = RichTextField(blank=True)
-    algolia_app_id = models.CharField(max_length=255, help_text='Your Algolia.com App ID', blank=True)
-    algolia_public_key = models.CharField(max_length=255, help_text='Your Algolia.com public key (NOT private key)', blank=True)
+    website_favicon = models.ForeignKey(
+        'wagtailimages.Image',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name='+'
+    )
+    algolia_app_id = models.CharField(max_length=255, help_text='Your Algolia.com App ID', default='')
+    algolia_public_key = models.CharField(max_length=255, help_text='Your Algolia.com public key (NOT private key)', default='')
 
     panels = [
         FieldPanel('website_header_text'),
         ImageChooserPanel('website_header_icon'),
         FieldPanel('google_analytics_id'),
         RichTextFieldPanel('website_footer'),
+        ImageChooserPanel('website_favicon'),
         FieldPanel('algolia_app_id'),
         FieldPanel('algolia_public_key'),
     ]
