@@ -1,0 +1,6 @@
+{
+  "name": "Start Here CMS",
+  "description": "A simple CMS solution to guide users to acheive a goal",
+  "repository": "https://github.com/adrind/startherecms",
+  "keywords": ["wagtail", "cms", "code for america"]
+}

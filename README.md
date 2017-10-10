@@ -3,6 +3,9 @@
 A flexible [Wagtail](https://wagtail.io/) app to make it easy to build simple guides.
 Developed after research from the [Anchorage Code for America](https://cfa-muni.tumblr.com) fellowship team.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
 ## Requirements ##
 1. A [Heroku](https://heroku.com) account to host the website
 2. An AWS Storage bucket to hold images and documents
