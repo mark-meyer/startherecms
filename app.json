@@ -34,11 +34,13 @@
     },
     "GOOGLE_WIDGET_DEFAULT_LAT" : {
       "description": "Default latitude to use for Google Maps location selector (defaults to San Francisco)",
-      "value": 37.773972
+      "value": "37.773972",
+      "required": false
     },
     "GOOGLE_WIDGET_DEFAULT_LONG": {
       "description": "Default longitude to use for Google Maps location selector (defaults to San Francisco)",
-      "value": -122.431297
+      "value": "-122.431297",
+      "required": false
     }
   },
   "scripts": {
