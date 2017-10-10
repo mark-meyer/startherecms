@@ -11,6 +11,7 @@ Welcome to Start Here CMS's documentation!
    :caption: Contents:
 
    intro
+   quickstart
 
 
 
