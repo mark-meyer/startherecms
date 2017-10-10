@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'search',
     'roadmap',
     'storages',
+    'django_extensions',
 
     'wagtail.wagtailforms',
     'wagtail.wagtailredirects',

@@ -7,9 +7,41 @@
     "DJANGO_SECRET_KEY": {
       "description": "A randomly generated secret to secure your Django installation",
       "generator": "secret"
+    },
+    "DJANGO_SETTINGS_MODULE": {
+      "description": "What version of settings to run",
+      "value": "startherecms.settings.production"
+    },
+    "ADMIN_USER": {
+      "description": "The username of your admin account",
+      "value": "admin"
+    },
+    "ADMIN_PASSWORD": {
+      "description": "The password of your admin account"
+    },
+    "AWS_STORAGE_BUCKET_NAME": {
+      "description": "The name of the AWS bucket you will use to store images and documents"
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "description": "Your secret access key to your AWS bucket"
+    },
+    "AWS_ACCESS_KEY_ID": {
+      "description": "The access key"
+    },
+    "GOOGLE_MAPS_API_KEY": {
+      "description": "Your Google Maps API key to use for the location selector (optional)",
+      "required": false
+    },
+    "GOOGLE_WIDGET_DEFAULT_LAT" : {
+      "description": "Default latitude to use for Google Maps location selector (defaults to San Francisco)",
+      "value": 37.773972
+    },
+    "GOOGLE_WIDGET_DEFAULT_LONG": {
+      "description": "Default longitude to use for Google Maps location selector (defaults to San Francisco)",
+      "value": -122.431297
     }
   },
   "scripts": {
-    "postdeploy": "sh -c 'python manage.py syncdb --noinput; python manage.py migrate --noinput; python manage.py createsuperuser'"
+    "postdeploy": "sh -c 'python manage.py syncdb --noinput; python manage.py migrate --noinput; python manage.py runscript create_admin'"
   }
 }

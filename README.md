@@ -3,7 +3,7 @@
 A flexible [Wagtail](https://wagtail.io/) app to make it easy to build simple guides.
 Developed after research from the [Anchorage Code for America](https://cfa-muni.tumblr.com) fellowship team.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?env[DJANGO_SETTINGS_MODULE]=startherecms.settings.production)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 
 ## Requirements ##
