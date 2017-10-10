@@ -4,7 +4,7 @@
   "repository": "https://github.com/adrind/startherecms",
   "keywords": ["wagtail", "cms", "code for america"],
   "env": {
-    "DJANGO_SECRET_KEY": {
+    "SECRET_KEY": {
       "description": "A randomly generated secret to secure your Django installation",
       "generator": "secret"
     },
