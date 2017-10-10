@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # Start Here CMS documentation build configuration file, created by
-# sphinx-quickstart on Tue Oct 10 15:32:13 2017.
+# sphinx-quickstart on Tue Oct 10 15:51:46 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -34,7 +34,7 @@
 extensions = ['sphinx.ext.viewcode']
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['docs/_templates']
+templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -43,12 +43,12 @@ templates_path = ['docs/_templates']
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'docs/index'
+master_doc = 'index'
 
 # General information about the project.
 project = 'Start Here CMS'
-copyright = '2017, Clorama Dorvilias and Adrienne Dreyfus'
-author = 'Clorama Dorvilias and Adrienne Dreyfus'
+copyright = '2017, Clorama and Adrienne'
+author = 'Clorama and Adrienne'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -94,7 +94,7 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['docs/_static']
+html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -143,7 +143,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'StartHereCMS.tex', 'Start Here CMS Documentation',
-     'Clorama Dorvilias and Adrienne Dreyfus', 'manual'),
+     'Clorama and Adrienne', 'manual'),
 ]
 
 
