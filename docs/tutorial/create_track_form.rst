@@ -63,3 +63,70 @@ Let’s look at an example of a rule:
 .. image:: ../_static/tutorial/example_rule_1.png
     :align: center
     :alt: An example of a rule defined in the Wagtail admin
+
+This rule says that if a user selects “I want a dog with a lot of energy” we should show them the Working group and
+Herding breed Step pages.
+
+And sure enough, after Publishing with that rule we see the following pages when we select that option:
+
+.. image:: ../_static/tutorial/example_rule_result_1.png
+    :align: center
+    :alt: An example of how our previously defined rule displays the correct pages
+
+By default, the rules will work together and show the **union** of the pages for all our choices.
+So if we have another rule defined for “I want a dog that would be good for an apartment”
+
+.. image:: ../_static/tutorial/example_rule_2.png
+    :align: center
+    :alt: A second example of a rule defined in the Wagtail admin
+
+And our user selects both choices from the form, we will show the union of the pages for these two rules:
+
+.. image:: ../_static/tutorial/example_rule_result_2.png
+    :align: center
+    :alt: The result of our second example
+
+Cool! But what if you don’t want to show all the pages for each selected choice? What if you wanted to make a different
+rule for the combination of “I want a dog with a lot of energy” + “I want a dog that would be good for an apartment”?
+
+Well then you can check the **Has strict rules box** to define a specific rule for that combination. Checking the
+Has strict rules box without changing any of the rules shows these steps:
+
+.. image:: ../_static/tutorial/has_strict_rule_example_1.png
+    :align: center
+    :alt: The result of checking the Has strict rules checkbox
+
+Because we don’t have a rule defined for this combination, the form shows all the steps by default.
+Let’s define a rule now!
+
+.. image:: ../_static/tutorial/example_rule_3.png
+    :align: center
+    :alt: An example of a third (strictly defined) rule
+
+Now when we select those two choices, we get the step associated with this rule:
+
+.. image:: ../_static/tutorial/example_rule_result_3.png
+    :align: center
+    :alt: The result of our third rule
+
+Finally, there’s an Override option for each rule. This can be useful to define for a choice if you want its
+    selection to override any other defined rules.
+For example, let’s say you want the rule for “I want a dog that would be good for an apartment”
+    to override any other rule set for that choice.
+
+.. image:: ../_static/tutorial/rule_override_example.png
+    :align: center
+    :alt: An example of an overriding rule
+
+Now, anytime that choice is selected it will override any other rules associated with it
+    (like the last rule for “I want a dog with a lot of energy” + “I want a dog that is good with small children”
+
+.. image:: ../_static/tutorial/rule_override_example.png
+    :align: center
+    :alt: An example of an overriding rule
+
+.. IMPORTANT::
+    Use this override feature sparingly. It can be very powerful but very easy to accidentally make your form unnecessarily complex.
+
+
+Next: :doc:`extra_step_features`

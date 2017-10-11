@@ -11,6 +11,7 @@ This tutorial will walk you step by step through creating your own Start Here CM
     tutorial/create_track
     tutorial/create_step
     tutorial/create_track_form
+    tutorial/extra_step_features
 
 We assume you've taken the steps to sign up and launch your version of the CMS to Heroku and are staring at a page that looks like this:
 
