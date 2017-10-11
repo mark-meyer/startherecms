@@ -3,7 +3,17 @@ Create a new Step
 =================
 
 Steps are pages that help a user complete a Track. In our example about picking a dog breed,
-the Steps will look like pages of information about each breed type.
+the Steps will look like pages of information about each breed type. Go to the Track you want to create the Step page
+for, select "Add Child Page", and select the "Step" type. You should end up with a page that looks like this:
+
+.. image:: ../_static/tutorial/new_step.png
+    :align: center
+    :alt: An empty Step page form
+
+
+^^^^^^^^^^^^^^^^^
+Video walkthrough
+^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/tutorial/youtube_icon.png
     :align: left
@@ -11,18 +21,21 @@ the Steps will look like pages of information about each breed type.
 
 `How to create a basic Step page <https://www.youtube.com/watch?v=c4YlNDVbBrM&feature=youtu.be>`_
 
-.. image:: ../_static/tutorial/definition_icon.png
-    :align: left
-    :alt: A magnifying glass
-
-**Title** - The name of the page -- this will appear as the text in the browser tab and as the header of the page.
+^^^^^^^^^^^^^^^^^^^^^^^
+Basic Field definitions
+^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/tutorial/definition_icon.png
     :align: left
     :alt: A magnifying glass
 
-**Short description** - The short description offers a preview of what the Step page is about. This will be shown on
-the Track page to entice people to click on the link to this Step.
+**Title** - the name of the page. This will appear as the text in the browser tab and as the header of the page.
+
+.. image:: ../_static/tutorial/definition_icon.png
+    :align: left
+    :alt: A magnifying glass
+
+**Short description** - offers a preview of what the Step page is about. This will be shown on the Track page to entice people to click on the link to this Step.
 
 .. image:: ../_static/tutorial/definition_icon.png
     :align: left

@@ -18,12 +18,13 @@ community organizations and support. We wanted to make this CMS as flexible as p
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :titlesonly:
 
    intro
    quickstart
-   cms-structure
    tutorial
+   cms-structure
    technical
 
 

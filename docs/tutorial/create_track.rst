@@ -3,7 +3,11 @@ Create a new Track
 ==================
 
 First let’s create a basic track page for What type of breed. Navigate to your home page and select “Add Child Page.”
-Pick Track type and fill out the basic information for the page.
+Pick the Track type and fill out the basic information for the page in a form that looks like this:
+
+.. image:: ../_static/tutorial/new_track.png
+    :align: center
+    :alt: An empty Track page form
 
 .. image:: ../_static/tutorial/youtube_icon.png
     :align: left

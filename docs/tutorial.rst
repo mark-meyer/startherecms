@@ -4,6 +4,7 @@ Tutorial - Start Here Dog!
 This tutorial will walk you step by step through creating your own Start Here CMS website.
 
 .. toctree::
+    :maxdepth: 1
 
     tutorial/create_homepage
     tutorial/site_settings
@@ -13,7 +14,8 @@ This tutorial will walk you step by step through creating your own Start Here CM
     tutorial/create_track_form
     tutorial/extra_step_features
 
-We assume you've taken the steps to sign up and launch your version of the CMS to Heroku and are staring at a page that looks like this:
+We assume you've taken the steps to :doc:`sign up and launch your version<../quickstart>` of the CMS to Heroku, have a
+:doc:`basic understanding of our CMS structure<../cms-structure>`, and currently have a website that looks like this:
 
 .. image:: _static/tutorial/basic_wagtail_app.png
     :align: left
@@ -34,9 +36,16 @@ This icon means we have a link to a YouTube video to see a full walkthrough
     :align: left
     :alt: A magnifying glass
 
-This icon means we are about to define a field in Wagtail
+This icon means we are about to define a field in the Wagtail admin like the one below:
 
-**Let's get started!**
+.. image:: _static/tutorial/definition.png
+    :align: left
+    :alt: A definition in the Wagtail admin
 
-Step 1: :doc:`tutorial/create_homepage`
+Now we're ready to make a website!
 
+.. container:: next
+
+    .. admonition:: Let's get started
+
+        Step 1: :doc:`tutorial/create_homepage`
