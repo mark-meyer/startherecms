@@ -21,6 +21,14 @@ We assume you've taken the steps to :doc:`sign up and launch your version<../qui
     :align: left
     :alt: A basic homepage for a Wagtail application
 
+And logging into the admin view at http://you-heroku-app-name.herokuapp.com/admin should look like this:
+
+.. image:: _static/tutorial/basic_wagtail_admin.png
+    :align: left
+    :alt: The login view for the Wagtail admin
+
+Use the username and password you created during the :doc:`Quickstart <quickstart>` section to login. 
+
 -----------
 Definitions
 -----------

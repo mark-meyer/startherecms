@@ -51,7 +51,10 @@ Once you have your Heroku and AWS bucket set up, you can start! Click the deploy
     :target: https://heroku.com/deploy?template=https://github.com/adrind/startherecms
 
 This will prompt you to create an admin username + password. Remember what you type! We will use this account information
-to login later.
+to login later. Viewing your app after Heroku builds it should show a simple "Hello World" website like this:
+
+.. image:: _static/tutorial/basic_wagtail_app.png
+    :alt: The basic Hello World Wagtail app
 
 Want a full guide on how to structure and setup your website? Follow our :doc:`Tutorial <tutorial>`!
 
