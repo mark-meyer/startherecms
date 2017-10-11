@@ -3,17 +3,36 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Start Here CMS's documentation!
-==========================================
+
+Start Here CMS
+==============
+
+Start Here CMS was the result of the 2017 Code for America `Anchorage fellowship team. <https://cfa-muni.tumblr.com>`_
+
+It was created after our research lead us to understand that most government services rely on a web of
+community organizations and support.
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    intro
    quickstart
+   cms-structure
+   content
 
 
+
+Contribute
+----------
+
+- Source Code: github.com/adrind/startherecms
+
+Support
+-------
+
+If you are having issues, please let us know.
+We have a mailing list located at: anchorageroadmap@gmail.com
 
 
 Indices and tables
