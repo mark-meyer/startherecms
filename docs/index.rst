@@ -7,19 +7,24 @@
 Start Here CMS
 ==============
 
-Start Here CMS was the result of the 2017 Code for America `Anchorage fellowship team. <https://cfa-muni.tumblr.com>`_
+Start Here CMS was the result of the 2017 Code for America `Anchorage fellowship team <https://cfa-muni.tumblr.com>`_
+when we designed an easy to use content management system to outline services in Anchorage that could help a jobseeker during their employment search.
+
+.. image:: _static/images/homepage.png
+   :target: http://www.starthereanchorage.org/
 
 It was created after our research lead us to understand that most government services rely on a web of
-community organizations and support.
+community organizations and support. We wanted to make this CMS as flexible as possible so other organizations can create their own CMS without writing any code.
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    intro
    quickstart
    cms-structure
-   content
+   tutorial
+   technical
 
 
 
