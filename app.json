@@ -21,7 +21,7 @@
     },
     "AWS_STORAGE_BUCKET_NAME": {
       "description": "The name of the AWS bucket you will use to store images and documents",
-      "default": "start-here-dog"
+      "value": "start-here-dog"
     },
     "AWS_SECRET_ACCESS_KEY": {
       "description": "Your secret access key to your AWS bucket"
@@ -54,6 +54,6 @@
     }
   },
   "scripts": {
-    "postdeploy": "sh -c 'python manage.py syncdb --noinput; python manage.py migrate --noinput; python manage.py runscript create_admin'"
+    "postdeploy": "sh -c 'python manage.py migrate --noinput; python manage.py runscript create_admin'"
   }
 }
