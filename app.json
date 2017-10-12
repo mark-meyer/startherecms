@@ -3,6 +3,7 @@
   "description": "A simple CMS solution to guide users to acheive a goal",
   "repository": "https://github.com/adrind/startherecms",
   "keywords": ["wagtail", "cms", "code for america"],
+  "addons": ["heroku-postgresql:hobby-dev"],
   "env": {
     "SECRET_KEY": {
       "description": "A randomly generated secret to secure your Django installation",
