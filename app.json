@@ -20,13 +20,15 @@
       "description": "The password of your admin account"
     },
     "AWS_STORAGE_BUCKET_NAME": {
-      "description": "The name of the AWS bucket you will use to store images and documents"
+      "description": "The name of the AWS bucket you will use to store images and documents",
+      "default": "start-here-dog"
     },
     "AWS_SECRET_ACCESS_KEY": {
       "description": "Your secret access key to your AWS bucket"
     },
     "AWS_ACCESS_KEY_ID": {
-      "description": "The access key"
+      "description": "The access key",
+      "value": "AKIAI2LXNFJYU5QBIJ3A"
     },
     "GOOGLE_MAPS_API_KEY": {
       "description": "Your Google Maps API key to use for the location selector (optional)",
