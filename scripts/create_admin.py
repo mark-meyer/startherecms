@@ -9,4 +9,5 @@ if "ADMIN_USER" in os.environ and "ADMIN_PASSWORD" in os.environ:
     user.is_staff=True
     user.save()
 
-subprocess.call(['./seed_db.sh'])
+print("path " + os.path.dirname(os.path.realpath(__file__)))
+subprocess.call(['scripts/seed_db.sh'])
