@@ -8,5 +8,3 @@ if "ADMIN_USER" in os.environ and "ADMIN_PASSWORD" in os.environ:
     user.is_superuser=True
     user.is_staff=True
     user.save()
-
-subprocess.call("heroku pg:backups:restore 'https://s3.us-east-2.amazonaws.com/database-dump-starthere/c5de9726-b709-4fd9-af32-e03fe390df16' DATABASE_URL", shell=True)
