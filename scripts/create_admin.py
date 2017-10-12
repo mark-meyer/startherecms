@@ -9,5 +9,4 @@ if "ADMIN_USER" in os.environ and "ADMIN_PASSWORD" in os.environ:
     user.is_staff=True
     user.save()
 
-print("path " + os.path.dirname(os.path.realpath(__file__)))
-subprocess.check_call(['seed_db.sh', 'test'])
+subprocess.call("heroku pg:backups:restore 'https://s3.us-east-2.amazonaws.com/database-dump-starthere/c5de9726-b709-4fd9-af32-e03fe390df16' DATABASE_URL")
