@@ -44,6 +44,9 @@ Basic Field definitions
 **Page Body** - The body of the page. Use this space to educate your user about the Step and send them to useful
 websites and resources.
 
+These are the basic fields you need to have a useful Step page.
+You'll notice some extra fields that are :doc:`documented later on in our tutorial<extra_step_features>`. You can skip these for now or fill them out immediately, your choice!
+
 After you fill out the above basic fields, you should see something like this:
 
 .. image:: ../_static/tutorial/basic_step_page.png
