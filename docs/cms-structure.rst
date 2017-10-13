@@ -1,7 +1,13 @@
 CMS structure overview
 **********************
 
-The website consists of three main page types: Home, Tracks, and Steps.
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   wagtail/step_page
+
+The website consists of three main page types: Home, Tracks, and :ref:`Steps <step>`.
 
 ==========
 Home Page

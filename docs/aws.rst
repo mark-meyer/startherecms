@@ -115,7 +115,8 @@ Go to your `AWS S3 console <https://s3.console.aws.amazon.com/s3/home>`_ and cli
 .. image:: _static/aws/create_aws_bucket.png
     :alt: The AWS S3 home console
 
-Pick a name that's related to the website you're creating. **Write down this name.** We will use it later as BUCKET-NAME.
+Pick a name that's related to the website you're creating. For my example I used my-cool-app-bucket.
+**Write down this name.** We will use it later as BUCKET-NAME.
 Keep clicking next and choose the default setup Amazon suggests.
 
 .. image:: _static/aws/sample_bucket.png
