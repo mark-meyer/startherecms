@@ -1,3 +1,3 @@
 web: gunicorn startherecms.wsgi --log-file -
-migrate: python manage.py migrate
+jobseker-template: python manage.py loaddata fixtures/jobseeker.json
 
