@@ -20,8 +20,8 @@ Once you sign up for these services you need the following keys to launch your a
    :header: "Name of key", "How to find it", "Example value"
    :widths: 15, 30, 10
 
-   "AWS_ACCESS_KEY_ID", :ref:`Find your access key <aws_keys>`, KUDFHGJKHRUFDBF
-   "AWS_SECRET_ACCESS_KEY", :ref:`Create your secret key <aws_keys>`, 2IUGFD/8vD9/k7s6
+   "AWS_ACCESS_KEY_ID", :ref:`Find your access key <aws_existing_user>`, KUDFHGJKHRUFDBF
+   "AWS_SECRET_ACCESS_KEY", :ref:`Create a secret key <aws_existing_user>`, 2IUGFD/8vD9/k7s6
    "AWS_STORAGE_BUCKET_NAME", :ref:`Create your bucket <aws_bucket>`, start-here-dog-files
 
 Additionally there are some optional (free!) services you can use for added functionality:
@@ -42,9 +42,9 @@ Additionally there are some optional (free!) services you can use for added func
    "ALGOLIA_APP_ID", Guide coming soon, Q87VFIUEH
    "ALGOLIA_PUBLIC_KEY", Guide coming soon, ce0896nbfsHUGfdgrz9b
 
+.. _deploy_heroku:
 
-
-Once you have your Heroku and AWS bucket set up, you can start! Click the deploy button to create your project in Heroku:
+Once you have a Heroku account and an AWS bucket set up, you can start! Click the deploy button to create your project in Heroku:
 
 .. image:: https://www.herokucdn.com/deploy/button.svg
     :alt: Deploy to Heroku button
