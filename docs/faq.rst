@@ -12,6 +12,10 @@ Some of the frequently asked questions we get:
 **How can I create my own version of this website?**
     Follow our simple :doc:`Quickstart guide <quickstart>`
 
+**What's this checklist section for?**
+    The checklist feature lets a user keep track of the pages they want to print out after their browsing session at
+    the computer. Learn more about the feature :ref:`here. <checklist>`
+
 **How can I add a user to add content to the website pages?**
     Our :doc:`content contributors page <tutorial/content_contributors>` will show you how!
 
@@ -26,7 +30,6 @@ Some of the frequently asked questions we get:
     2. You are viewing the page in “Preview” mode
 
     Review :doc:`Basic Understanding of Wagtail <tutorial/basic_understanding>`
-
 
 **Why aren't my Steps appearing on my Track page?**
     Did you just make a bunch of Step pages but they aren't appearing on your Track page? It's possible you made the

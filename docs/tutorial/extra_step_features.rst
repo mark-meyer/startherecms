@@ -73,6 +73,8 @@ After you add a location to the page it should look something like this
     :align: center
     :alt: A Step page with a location on it
 
+.. _checklist:
+
 --------------------------
 Add checklist instructions
 --------------------------
