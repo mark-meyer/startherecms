@@ -105,7 +105,8 @@ Now that you have your AWS_STORAGE_BUCKET_NAME, AWS_ACCESS_KEY_ID, and AWS_SECRE
 Creating a new AWS bucket
 '''''''''''''''''''''''''
 
-Now that we have our user, creating the bucket will be easy.
+Now that we have our user, creating the bucket will be easy. You can follow our guide below but we also suggest reading
+`AWS's documentation <http://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html>`_ on how to set one up.
 
 Go to your `AWS S3 console <https://s3.console.aws.amazon.com/s3/home>`_ and click on the "Create bucket" button.
 
