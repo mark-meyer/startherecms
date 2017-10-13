@@ -33,19 +33,12 @@ community organizations and support. We wanted to make this CMS as flexible as p
 Resources
 ---------
 
-- `Source Code <github.com/adrind/startherecms>`_
+- `Source Code <https://github.com/adrind/startherecms>`_
 - `Google Drive version of the Documentation <https://docs.google.com/document/d/1aFxM2USx8XSeQVUm7Ps8uispRC1mbc9iyDUbffIvTEY/edit?usp=sharing>`_
-- `Research blog <cfa-muni.tumblr.com>`_
+- `Research blog <https://cfa-muni.tumblr.com>`_
+- :ref:`Search the documentation <search>`
 
 Reach out
 ---------
 
 If you are having issues with this project, please let us know: `anchorageroadmap@gmail.com <mailto:anchorageroadmap@gmail.com>`_
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
