@@ -56,8 +56,8 @@ class SiteSettings(BaseSetting):
         on_delete=models.SET_NULL,
         related_name='+'
     )
-    algolia_app_id = models.CharField(max_length=255, help_text='Your Algolia.com App ID', default='')
-    algolia_public_key = models.CharField(max_length=255, help_text='Your Algolia.com public key (NOT private key)', default='')
+    algolia_app_id = models.CharField(max_length=255, help_text='Your Algolia.com App ID', default='', blank=True)
+    algolia_public_key = models.CharField(max_length=255, help_text='Your Algolia.com public key (NOT private key)', default='', blank=True)
 
     panels = [
         FieldPanel('website_header_text'),
