@@ -6,6 +6,7 @@ This tutorial will walk you step by step through creating your own Start Here CM
 .. toctree::
     :maxdepth: 1
 
+    tutorial/basic_understanding
     tutorial/create_homepage
     tutorial/site_settings
     tutorial/website_structure
@@ -13,6 +14,7 @@ This tutorial will walk you step by step through creating your own Start Here CM
     tutorial/create_step
     tutorial/create_track_form
     tutorial/extra_step_features
+    tutorial/content_contributors
 
 We assume you've taken the steps to :doc:`sign up and launch your version<../quickstart>` of the CMS to Heroku, have a
 :doc:`basic understanding of our CMS structure<../cms-structure>`, and currently have a website that looks like this:
@@ -56,4 +58,4 @@ Now we're ready to make a website!
 
     .. admonition:: Let's get started
 
-        Step 1: :doc:`tutorial/create_homepage`
+        Step 1: :doc:`tutorial/basic_understanding`

@@ -73,3 +73,6 @@ After you add a location to the page it should look something like this
     :alt: A Step page with a location on it
 
 
+Finally let's set up our permissions: :doc:`content_contributors`
+
+

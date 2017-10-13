@@ -7,7 +7,7 @@
 Start Here CMS
 ==============
 
-Start Here CMS was the result of the 2017 Code for America `Anchorage fellowship team <https://cfa-muni.tumblr.com>`_
+Start Here CMS was the result of the 2017 `Code for America Anchorage fellowship team <https://cfa-muni.tumblr.com>`_
 when we designed an easy to use content management system to outline services in Anchorage that could help a jobseeker during their employment search.
 
 .. image:: _static/images/homepage.png
@@ -26,19 +26,21 @@ community organizations and support. We wanted to make this CMS as flexible as p
    tutorial
    cms-structure
    technical
+   faq
 
 
 
-Contribute
-----------
+Resources
+---------
 
-- Source Code: github.com/adrind/startherecms
+- `Source Code <github.com/adrind/startherecms>`_
+- `Google Drive version of the Documentation <https://docs.google.com/document/d/1aFxM2USx8XSeQVUm7Ps8uispRC1mbc9iyDUbffIvTEY/edit?usp=sharing>`_
+- `Research blog <cfa-muni.tumblr.com>`_
 
-Support
--------
+Reach out
+---------
 
-If you are having issues, please let us know.
-We have a mailing list located at: anchorageroadmap@gmail.com
+If you are having issues with this project, please let us know: `anchorageroadmap@gmail.com <mailto:anchorageroadmap@gmail.com>`_
 
 
 Indices and tables
