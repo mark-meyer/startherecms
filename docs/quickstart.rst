@@ -48,6 +48,7 @@ Once you have a Heroku account and an AWS bucket set up, you can start! Click th
 
 .. image:: https://www.herokucdn.com/deploy/button.svg
     :alt: Deploy to Heroku button
+    :align: center
     :target: https://heroku.com/deploy?template=https://github.com/adrind/startherecms
 
 This will prompt you to create an admin username + password. Remember what you type! We will use this account information

@@ -1,7 +1,8 @@
 =======================
 Create a new Home page
 =======================
-First things first -- let’s create a very basic homepage. We need to make a new Home page in the Root directory.
+
+First things first -- let’s create a very basic :ref:`Home page <home_page>`. We need to make a new Home page in the Root directory.
 
 .. image:: ../_static/tutorial/youtube_icon.png
     :align: left

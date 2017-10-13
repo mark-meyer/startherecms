@@ -1,3 +1,5 @@
+.. _create_track_form:
+
 ===================
 Create a Track form
 ===================

@@ -2,7 +2,7 @@
 Create a new Step
 =================
 
-Steps are pages that help a user complete a Track. In our example about picking a dog breed,
+:ref:`Steps <step>` are pages that help a user complete a :ref:`Track <track>`. In our example about picking a dog breed,
 the Steps will look like pages of information about each breed type. Go to the Track you want to create the Step page
 for, select "Add Child Page", and select the "Step" type. You should end up with a page that looks like this:
 
