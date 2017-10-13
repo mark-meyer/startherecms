@@ -47,6 +47,7 @@ After adding a Contact you should see it in the right hand side:
 --------------
 Add a location
 --------------
+
 .. image:: ../_static/tutorial/definition_icon.png
     :align: left
     :alt: A magnifying glass
@@ -72,7 +73,69 @@ After you add a location to the page it should look something like this
     :align: center
     :alt: A Step page with a location on it
 
+--------------------------
+Add checklist instructions
+--------------------------
+By now you must have noticed this mysterious “Checklist” floating on the right. What’s the purpose of this you ask?
+Well in some cases users might want to save a record of the pages they’ve visited and the things they need to do to
+accomplish the Steps they are interested.
 
-Finally let's set up our permissions: :doc:`content_contributors`
+We designed this checklist feature to do just that.
+
+Using the checklist
+'''''''''''''''''''
+
+A user can use the checklist to keep track of what Steps they are interested in. As they navigate your pages they can
+add Steps to their checklist using the green + button by the title (or in the Checklist section if the Checklist is
+empty)
+
+This is what the user sees when they haven't saved any pages to their checklist on this browsing session:
+
+.. image:: ../_static/tutorial/checklist_example.png
+    :align: left
+    :alt: An example of the empty checklist
+
+This is what the user sees after adding some pages to their checklist:
+
+.. image:: ../_static/tutorial/checklist_with_items.png
+    :align: left
+    :alt: A checklist with three items added to it
+
+And finally, this is what the "Print" page looks like if a user clicks the button to print out their checklist.
+The bullet points of additional information can be provided by the :ref:`Checklist Instructions <checklist_instructions>` field on the Step page template.
+
+.. image:: ../_static/tutorial/print_page_example.png
+    :align: left
+    :alt: The print page with information about the three saved pages
+
+Here's a video showing how a user can add a page to the checklist. Note that they can also click the green + button
+next to the title text:
+
+`Example of how to use a checklist <http://www.youtube.com/watch?v=9FrUR8tNySU&t=0m29s>`_
+
+
+Add checklist instructions
+''''''''''''''''''''''''''
+
+.. image:: ../_static/tutorial/definition_icon.png
+    :align: left
+    :alt: A magnifying glass
+
+.. _checklist_instructions:
+
+**Checklist instructions** - A field to let your user know what concrete steps they should take to accomplish this “Step”
+
+.. image:: ../_static/tutorial/youtube_icon.png
+    :align: left
+    :alt: An icon of a movie playing
+
+`How to add Checklist Instructions to a Step page <https://www.youtube.com/watch?v=9FrUR8tNySU&feature=youtu.be>`_
+
+These instructions are **only** visible when a user goes to print out their checklist.
+Don’t use this field to put super important information, just use it as a space to succinctly summarize what a user
+needs to do immediately. The URL to the original Step page will automatically be included when the user prints out the
+checklist of saved pages.
+
+Next let's set up our sections on the homepage: :doc:`homepage_sections`
 
 

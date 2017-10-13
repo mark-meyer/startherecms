@@ -4,6 +4,11 @@ Frequently Asked Questions
 
 Some of the frequently asked questions we get:
 
+**How can I use StartHereCMS?**
+    StartHereCMS is a great solution for organizations who need simply guides to let their users or clients know how to
+    get access to resources. It's very flexible since you create all the content so it can be adjusted to serve a
+    wide range of needs. There are probably ways to use this that we haven't even thought of!
+
 **How can I create my own version of this website?**
     Follow our simple :doc:`Quickstart guide <quickstart>`
 

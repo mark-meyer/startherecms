@@ -14,6 +14,7 @@ This tutorial will walk you step by step through creating your own Start Here CM
     tutorial/create_step
     tutorial/create_track_form
     tutorial/extra_step_features
+    tutorial/homepage_sections
     tutorial/content_contributors
 
 We assume you've taken the steps to :doc:`sign up and launch your version<../quickstart>` of the CMS to Heroku, have a
