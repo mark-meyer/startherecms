@@ -44,6 +44,8 @@ After adding a Contact you should see it in the right hand side:
     :align: center
     :alt: A Step page with a contact on it
 
+.. _location:
+
 --------------
 Add a location
 --------------

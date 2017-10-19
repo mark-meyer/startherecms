@@ -22,38 +22,38 @@ Sign up and create your AWS account.
 
 Go to the `IAM Management Console <https://console.aws.amazon.com/iam/home#/users>`_ and create a new user by clicking on the Add user link.
 
-.. image:: _static/aws/add_user_aws.png
+.. image:: ../_static/aws/add_user_aws.png
     :alt: The AWS IAM screen
 
 Create a new user and give them "Programmatic access"
 
-.. image:: _static/aws/set_username.png
+.. image:: ../_static/aws/set_username.png
     :alt: The AWS screen to add a new user
 
 Next, on the permissions page you can simply grant them access to AmazonS3FullAccess policy in the
 "Attach existing policies directly" tab. Feel free to grant additionally levels of access if you plan on using this
 user for different projects.
 
-.. image:: _static/aws/aws_permissions.png
+.. image:: ../_static/aws/aws_permissions.png
     :alt: The AWS screen to grant permissions
 
 Finally you should see this success screen with information about your user.
 **Write down the Access key ID and Secret access key.** We will use these to set up your application.
 
-.. image:: _static/aws/aws_user_success.png
+.. image:: ../_static/aws/aws_user_success.png
     :alt: The success screen to find our what your keys are
 
 Go back to your `AWS IAM Users console <https://console.aws.amazon.com/iam/home#/users>`_. You should see the name
 of the user you just created. Click on the username you just created.
 
-.. image:: _static/aws/find_user_arn.png
+.. image:: ../_static/aws/find_user_arn.png
     :alt: The list of Users you have in this AWS account
 
 .. _user_arn:
 
 Write down the value you see for User ARN. We will use this when we create our AWS bucket.
 
-.. image:: _static/aws/user_arn_aws.png
+.. image:: ../_static/aws/user_arn_aws.png
     :alt: The user screen with the User Arn listed
 
 Great! Now let's :ref:`make the bucket <aws_bucket>`
@@ -73,12 +73,12 @@ First click on the Users link -- (if you don't have any Users :ref:`create one f
 
 Next, select the user whose information you want to use.
 
-.. image:: _static/aws/aws_2.png
+.. image:: ../_static/aws/aws_2.png
     :alt: The AWS IAM screen
 
 Then go to their Security credentials tab. **Write down your User's ARN** We will use this value when we make our bucket.
 
-.. image:: _static/aws/aws_3.png
+.. image:: ../_static/aws/aws_3.png
     :alt: The AWS IAM screen
 
 You're going to want to create an access key for them.
@@ -86,18 +86,18 @@ You're going to want to create an access key for them.
 .. IMPORTANT::
     Once you generate an access key, you only have one chance to write the SECRET_ACCESS_KEY down. Be sure to record this!
 
-.. image:: _static/aws/aws_4.png
+.. image:: ../_static/aws/aws_4.png
     :alt: The AWS IAM screen
 
 .. _aws_access_key:
 
 Write down your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
 
-.. image:: _static/aws/aws_5.png
+.. image:: ../_static/aws/aws_5.png
     :alt: The AWS IAM screen
 
 Now that you have your AWS_STORAGE_BUCKET_NAME, AWS_ACCESS_KEY_ID, and AWS_SECRET_ACCESS_KEY written down you should be
-:doc:`good to go. <quickstart>`
+:doc:`good to go. <../quickstart>`
 
 .. _aws_bucket:
 
@@ -112,20 +112,20 @@ Go to your `AWS S3 console <https://s3.console.aws.amazon.com/s3/home>`_ and cli
 
 .. _aws_bucket_name:
 
-.. image:: _static/aws/create_aws_bucket.png
+.. image:: ../_static/aws/create_aws_bucket.png
     :alt: The AWS S3 home console
 
 Pick a name that's related to the website you're creating. For my example I used my-cool-app-bucket.
 **Write down this name.** We will use it later as BUCKET-NAME.
 Keep clicking next and choose the default setup Amazon suggests.
 
-.. image:: _static/aws/sample_bucket.png
+.. image:: ../_static/aws/sample_bucket.png
     :alt: Setting up your AWS bucket
 
 Now you should see your bucket listed in your `AWS S3 console <https://s3.console.aws.amazon.com/s3/home>`_.
 Click on that bucket and then click on the "Permissions" tab, followed by the "Bucket Policy" button.
 
-.. image:: _static/aws/sample_policy.png
+.. image:: ../_static/aws/sample_policy.png
     :alt: The Bucket Policy view in the Permissions tab
 
 Enter the following text in the Bucket policy editor except replace BUCKET-NAME with the name of the bucket you just
