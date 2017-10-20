@@ -1,3 +1,5 @@
+.. _local_deploy:
+
 =======================
 Running the app locally
 =======================
