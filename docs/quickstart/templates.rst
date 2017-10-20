@@ -24,3 +24,10 @@ Simply open the console in your app's dashboard on Heroku and enter the template
 .. raw:: html
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/oNhBzjsL-Q0" frameborder="0" allowfullscreen></iframe>
+
+
+How can I make a template?
+--------------------------
+
+Have an idea for a template that you think would be useful for other cities? Follow our guide to :doc:`set up a local development
+environment<local_deploy>` and start designing your very own template to share.

@@ -31,6 +31,6 @@ All you need to do is [create some accounts](http://start-here-cms.readthedocs.i
 
 We welcome all contributors. 
 
-Setting up the application [locally](http://start-here-cms.readthedocs.io/en/latest/quickstart/local_deploy.html) is easy and read about how you can use templates to make it easy for other to 
+Setting up the application [locally](http://start-here-cms.readthedocs.io/en/latest/quickstart/local_deploy.html) is easy and read about how you can [use templates](http://localhost:63342/startherecms/docs/_build/html/quickstart/templates.html) to make it easy for other to 
 deploy YOUR version of StartHereCMS.
 
