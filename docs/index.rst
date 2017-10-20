@@ -4,10 +4,10 @@
    contain the root `toctree` directive.
 
 
-Start Here CMS
+StartHereCMS
 ==============
 
-Start Here CMS was the result of the 2017 `Code for America Anchorage fellowship team <https://cfa-muni.tumblr.com>`_
+StartHereCMS was the result of the 2017 `Code for America Anchorage fellowship team <https://cfa-muni.tumblr.com>`_
 when we designed an easy to use content management system to outline services in Anchorage that could help a jobseeker during their employment search.
 
 .. image:: _static/images/homepage.png

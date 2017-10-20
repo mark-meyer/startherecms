@@ -12,6 +12,9 @@ Some of the frequently asked questions we get:
 **How can I create my own version of this website?**
     Follow our simple :doc:`Quickstart guide <quickstart>`
 
+**I used this CMS in a cool way is there a way I can share my design with the world?**
+    Hooray! The powerful thing about StartHereCMS is that we can easily share templates. Follow our :ref:`template creating guide <create_template>` to learn more.
+
 **What's this checklist section for?**
     The checklist feature lets a user keep track of the pages they want to print out after their browsing session at
     the computer. Learn more about the feature :ref:`here. <checklist>`

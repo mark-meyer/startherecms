@@ -17,13 +17,13 @@
       "value": "admin"
     },
     "ADMIN_PASSWORD": {
-      "description": "The password of your admin account"
+      "description": "The initial password of your admin account"
     },
     "AWS_ACCESS_KEY_ID": {
-      "description": "The access key"
+      "description": "The access key ID for your AWS user"
     },
     "AWS_SECRET_ACCESS_KEY": {
-      "description": "Your secret access key to your AWS bucket"
+      "description": "Your secret access key for your AWS user"
     },
     "AWS_STORAGE_BUCKET_NAME": {
       "description": "The name of the AWS bucket you will use to store images and documents"

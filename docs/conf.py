@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Start Here CMS'
-copyright = '2017, Clorama and Adrienne'
-author = 'Clorama and Adrienne'
+project = 'StartHereCMS'
+copyright = '2017, Adrienne Dreyfus and Clorama Dorvilias'
+author = 'Adrienne Dreyfus and Clorama Dorvilias'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -143,7 +143,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'StartHereCMS.tex', 'Start Here CMS Documentation',
-     'Clorama and Adrienne', 'manual'),
+     'Adrienne Dreyfus and Clorama Dorvilias', 'manual'),
 ]
 
 

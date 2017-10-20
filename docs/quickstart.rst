@@ -9,6 +9,7 @@ Quickstart
     quickstart/google_analytics
     quickstart/algolia
     quickstart/local_deploy
+    quickstart/templates
 
 Starting your own version of StartHereCMS can be done in 30 minutes.
 Once you have your Heroku and AWS accounts set up it's as simple as clicking a button!
@@ -70,6 +71,6 @@ to login later. Viewing your app after Heroku builds it should show a simple "He
 .. image:: _static/tutorial/basic_wagtail_app.png
     :alt: The basic Hello World Wagtail app
 
-Need a template to help you get started? Pick from our community sourced list.
+Need a template to help you get started? Pick from :doc:`our community sourced list <quickstart/templates>`.
 
 Want a full walk through on how to structure and setup your website from scratch? Follow our :doc:`Tutorial <tutorial>`!
