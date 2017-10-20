@@ -8,9 +8,7 @@ $(document).ready(function() {
     if(algoliaAppId && algoliaPublicKey) {
         $('#q').show();
         var client = algoliasearch(algoliaAppId, algoliaPublicKey);
-        var prefix = window.location.origin === 'http://localhost:8000' ? '' : 'prod_';
-        var stepIndex = client.initIndex(prefix+'step_index');
-        var roadmapType = window.location.pathname.split('/') && window.location.pathname.split('/')[1];
+        var stepIndex = client.initIndex('step_index');
 
         //Required to make sure all links in a rich text field open in a new tab
         $('.rich-text a').attr('target', '_blank');

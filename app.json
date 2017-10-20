@@ -3,6 +3,7 @@
   "description": "A simple CMS solution to guide users to acheive a goal",
   "repository": "https://github.com/adrind/startherecms",
   "keywords": ["wagtail", "cms", "code for america"],
+  "addons": ["heroku-postgresql:hobby-dev"],
   "env": {
     "SECRET_KEY": {
       "description": "A randomly generated secret to secure your Django installation",
@@ -33,13 +34,21 @@
       "required": false
     },
     "GOOGLE_WIDGET_DEFAULT_LAT" : {
-      "description": "Default latitude to use for Google Maps location selector (defaults to San Francisco)",
+      "description": "Default latitude to use for Google Maps location selector (optional - defaults to San Francisco)",
       "value": "37.773972",
       "required": false
     },
     "GOOGLE_WIDGET_DEFAULT_LONG": {
-      "description": "Default longitude to use for Google Maps location selector (defaults to San Francisco)",
+      "description": "Default longitude to use for Google Maps location selector (optional - defaults to San Francisco)",
       "value": "-122.431297",
+      "required": false
+    },
+    "ALGOLIA_API_KEY" : {
+      "description": "The secret API key used to manage your search box (optional)",
+      "required": false
+    },
+    "ALGOLIA_APP_ID" : {
+      "description": "The APP ID used to manage your search box (optional)",
       "required": false
     }
   },
