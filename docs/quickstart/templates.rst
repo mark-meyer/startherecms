@@ -26,6 +26,19 @@ Simply open the console in your app's dashboard on Heroku and enter the template
     <iframe width="560" height="315" src="https://www.youtube.com/embed/oNhBzjsL-Q0" frameborder="0" allowfullscreen></iframe>
 
 
+How can I use a template?
+-------------------------
+The video above shows the basic steps, but here's a play by play of what to do:
+
+1. Go to your Heroku app's dashboard
+2. Open the console by clicking the "More" button followed by "Run console"
+3. A console window should appear at the bottom of the screen: enter the name of the template you want to use in the textbox
+4. Wait until you see the success message "Installed 163 object(s) from 1 fixture(s)"
+    * The number of objects installed depends on the template you use
+5. Click open app to see your template successfully installed!
+6. Log into the admin interface to change/edit/remove/add to any of the newly created pages
+
+
 How can I make a template?
 --------------------------
 

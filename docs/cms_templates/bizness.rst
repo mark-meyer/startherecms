@@ -2,8 +2,8 @@
 Small business template
 =======================
 
-Template name to run in Heroku console
---------------------------------------
+Template name to enter in Heroku console
+----------------------------------------
 bizness
 
 About
