@@ -15,3 +15,17 @@ Let’s say you really want to update Wagtail from version 1.12 to 1.12.1
 * Run ``python manage.py makemigrations`` and ``python manage.py migrate``
 * Commit the new migration file and push it up to heroku
 * Run ``heroku run python manage.py migrate``
+
+---------------
+Troubleshooting
+---------------
+
+If you start seeing weird behavior and getting 500 you can turn the app into staging mode which will give you a
+full stacktrace of your errors. In the Heroku config vars set::
+
+    DJANGO_SETTINGS_MODULE=startherecms.settings.staging
+
+Be sure to set it back to::
+    DJANGO_SETTINGS_MODULE=startherecms.settings.production
+
+when you're done debugging

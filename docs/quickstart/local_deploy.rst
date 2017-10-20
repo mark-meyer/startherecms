@@ -8,6 +8,7 @@ It assumes a working knowledge of Github and Python 3+ installed.
 1. Clone or fork the `github repository <https://github.com/adrind/startherecms>`_.
 2. Create a .env file in the root of your project with all the :ref:`config variables you want <config_vars>`. Here's what a basic .env should look like::
 
+    DJANGO_SETTINGS_MODULE=startherecms.settings.local
     AWS_ACCESS_KEY_ID=something-something
     AWS_SECRET_ACCESS_KEY=irutsgkjniuref
     AWS_STORAGE_BUCKET_NAME=your-bucket-name
