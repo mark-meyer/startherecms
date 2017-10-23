@@ -47,3 +47,18 @@ Be sure to set it back to::
     DJANGO_SETTINGS_MODULE=startherecms.settings.production
 
 when you're done debugging
+
+.. config_vars:
+
+------------------------------
+Updating your config variables
+------------------------------
+
+Need to change your AWS bucket information or want to set up :doc:`Algolia <quickstart/algolia>` to add search to your website?
+Update your Heroku configuration by going to your app Dashboard Settings.
+
+.. image:: _static/images/heroku_config.png
+   :alt: Your application's Settings with an arrow point to Config variables
+
+Clicking the "Reveal Config Vars" should let you edit any of the configuration variables we set up during :doc:`Quickstart <quickstart>`.
+Note that some of your configuration also lives in :doc:`Site Settings. <tutorial/site_settings>`

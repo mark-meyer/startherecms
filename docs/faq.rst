@@ -5,7 +5,7 @@ Frequently Asked Questions
 Some of the frequently asked questions we get:
 
 **How can I use StartHereCMS?**
-    StartHereCMS is a great solution for organizations who need simply guides to let their users or clients know how to
+    StartHereCMS is a great solution for organizations who need simple guides to let their users or clients know how to
     get access to resources. It's very flexible since you create all the content so it can be adjusted to serve a
     wide range of needs. There are probably ways to use this that we haven't even thought of!
 
@@ -21,6 +21,9 @@ Some of the frequently asked questions we get:
 
 **How can I add a user to add content to the website pages?**
     Our :doc:`content contributors page <tutorial/content_contributors>` will show you how!
+
+**How can change my AWS/Algolia/Google API credentials?**
+    You can update all your configuration through :ref:`Heroku's config vars. <config_vars>`
 
 **How can I use my own domain?**
     There are several ways to buy custom domains and set them up with Heroku.

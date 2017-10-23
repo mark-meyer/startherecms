@@ -53,7 +53,7 @@ header icon (it can even be the same image as long as the dimensions are correct
     :alt: A magnifying glass
 
 **Algolia App ID and Algolia Public Key** - If you want search on your website you need an
-`Algolia.com <http://www.algolia.com>`_ account. Once you setup your account paste your App ID and Public Key
+`Algolia.com <http://www.algolia.com>`_ account. Once you :doc:`setup your account <../quickstart/algolia>` paste your App ID and Public Key
 here and a search box should appear in the top right corner of the blue header text.
 
 After adding all these site settings you should have a page that looks like this:

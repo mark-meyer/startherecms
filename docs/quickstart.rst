@@ -53,8 +53,8 @@ Additionally there are some optional (free!) services you can use for added func
    "GOOGLE_MAPS_API_KEY", :doc:`Get your API key <quickstart/google_maps>`, AIv80f_8tueriogjURGYE
    "GOOGLE_WIDGET_DEFAULT_LAT", `Find your latitude <http://www.worldatlas.com/aatlas/findlatlong.htm>`_ , 37.773972
    "GOOGLE_WIDGET_DEFAULT_LONG", `Find your longitude <http://www.worldatlas.com/aatlas/findlatlong.htm>`_ , -122.431297
-   "ALGOLIA_APP_ID", Guide coming soon, Q87VFIUEH
-   "ALGOLIA_API_KEY", Guide coming soon, ce0896nbfsHUGfdgrz9b
+   "ALGOLIA_APP_ID", :doc:`Get your App Id <quickstart/algolia>`, Q87VFIUEH
+   "ALGOLIA_API_KEY", :doc:`Get your API Key <quickstart/algolia>`, ce0896nbfsHUGfdgrz9b
 
 .. _deploy_heroku:
 
