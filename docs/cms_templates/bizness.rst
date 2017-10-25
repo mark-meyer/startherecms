@@ -4,7 +4,7 @@ Small business template
 
 Template name to enter in Heroku console
 ----------------------------------------
-bizness
+business-template
 
 About
 -----
