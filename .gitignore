@@ -17,6 +17,9 @@ db.sqlite3
 media/
 .env
 
+### VSCode
+.vscode
+
 ### JetBrains
 .idea/
 *.iml
