@@ -9,13 +9,13 @@
       "description": "A randomly generated secret to secure your Django installation",
       "generator": "secret"
     },
-    "DJANGO_SETTINGS_MODULE": {
-      "description": "What version of settings to run",
-      "value": "startherecms.settings.production"
-    },
     "DISABLE_COLLECTSTATIC": {
         "description": "Prevent Heroku from making static folder",
         "value": true
+    },
+    "DJANGO_SETTINGS_MODULE": {
+      "description": "What version of settings to run",
+      "value": "startherecms.settings.production"
     },
     "ADMIN_USER": {
       "description": "The username of your admin account",
