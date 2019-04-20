@@ -11,7 +11,7 @@
     },
     "DISABLE_COLLECTSTATIC": {
         "description": "Prevent Heroku from making static folder",
-        "value": true
+        "value": "1"
     },
     "DJANGO_SETTINGS_MODULE": {
       "description": "What version of settings to run",
