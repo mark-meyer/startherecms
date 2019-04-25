@@ -14,6 +14,8 @@ ALLOWED_HOSTS = ['*']
 
 DEBUG = False
 
+SECURE_SSL_REDIRECT = True
+
 env = os.environ.copy()
 SECRET_KEY = env['SECRET_KEY']
 

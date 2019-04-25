@@ -9,10 +9,6 @@
       "description": "A randomly generated secret to secure your Django installation",
       "generator": "secret"
     },
-    "DISABLE_COLLECTSTATIC": {
-        "description": "Prevent Heroku from making static folder",
-        "value": "1"
-    },
     "DJANGO_SETTINGS_MODULE": {
       "description": "What version of settings to run",
       "value": "startherecms.settings.production"
