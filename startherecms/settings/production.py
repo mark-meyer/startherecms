@@ -15,6 +15,10 @@ ALLOWED_HOSTS = ['*']
 DEBUG = False
 
 SECURE_SSL_REDIRECT = True
+PREPEND_WWW = True
+MIDDLEWARE_CLASSES = (
+    'django.middleware.common.CommonMiddleware', # must be there in middlewares
+ )
 
 env = os.environ.copy()
 SECRET_KEY = env['SECRET_KEY']
